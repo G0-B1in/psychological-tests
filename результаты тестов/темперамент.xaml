@@ -1,0 +1,26 @@
+﻿<Page x:Class="Курсовой_2._0.результаты_тестов.темперамент"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Курсовой_2._0.результаты_тестов"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="580"
+      Title="темперамент">
+
+    <Grid>
+        <ListBox  x:Name="lb" HorizontalAlignment="Left" Height="346" Margin="10,10,0,0" VerticalAlignment="Top" Width="560" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+            <ListBoxItem IsEnabled="False">
+                <TextBlock TextAlignment="Justify" x:Name="res1" Text="" TextWrapping="Wrap" Width="522"/>
+            </ListBoxItem>
+            <ListBoxItem IsEnabled="False">
+                <TextBlock TextAlignment="Justify" x:Name="res2" Text="" TextWrapping="Wrap" Width="522"/>
+            </ListBoxItem>
+            <ListBoxItem IsEnabled="False">
+                <TextBlock TextAlignment="Justify" x:Name="res3" Text="" TextWrapping="Wrap" Width="522"/>
+            </ListBoxItem>
+            
+        </ListBox>
+
+    </Grid>
+</Page>

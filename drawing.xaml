@@ -1,0 +1,17 @@
+﻿<Window x:Class="Курсовой_2._0.drawing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсовой_2._0"
+        mc:Ignorable="d"
+        Title="Рисуночный тест" Height="450" Width="590" MinHeight="450" MinWidth="590" Background="#EEF3F8" KeyDown="Window_KeyDown" Icon="img\психология.png">
+    <Viewbox MaxHeight="1440" MaxWidth="1024">
+        <Grid  Height="450" Width="590">
+            <Frame Name="fram"  NavigationUIVisibility="Hidden" Margin="10,48,0,8" Width="580"/>
+
+            <Button Content="В меню"  Margin="502,13,10,407" Click="Button_Click"/>
+
+        </Grid>
+    </Viewbox>
+</Window>

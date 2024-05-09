@@ -1,0 +1,15 @@
+﻿<Page x:Class="Курсовой_2._0.правила_тесотв.рисуночный_тест"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Курсовой_2._0.правила_тесотв"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="580"
+      Title="рисуночный_тест">
+
+    <Grid>
+        <TextBlock TextAlignment="Justify" Text="Диагностика личности - рисуночный тест" FontWeight="Bold" FontSize="20" Margin="0,0,0,315.4"/>
+        <TextBlock TextAlignment="Justify" Text="Данный рисуночный тест предназначен для выявления подсознательного отношения к некоторым аспектам жизни. В ходе тестирования Вам будет предложено 6 картинок, каждую из которых нужно дополнить (дорисовать мышкой) так, чтобы получилось нечто осмысленное. Рядом с каждым рисунком напишите прилагательное, описывающее этот рисунок. Например, если Вы нарисовали человечка, то прилагательное может быть одним из следующих: веселый, умный, красивый и так далее." TextWrapping="Wrap" Margin="0,40,10,132.4"/>
+    </Grid>
+</Page>

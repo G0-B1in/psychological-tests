@@ -1,0 +1,26 @@
+﻿<Window x:Class="Курсовой_2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсовой_2._0"
+        mc:Ignorable="d"
+        Title="Меню" MinHeight="550" MinWidth="490" Height="550" Width="490" Background="#EEF3F8" KeyDown="Window_KeyDown" Icon="img\психология.png">
+    <Viewbox MaxHeight="1440" MaxWidth="1024" Margin="0,0,0.2,-0.2">
+        <Grid>
+            <Button x:Name="spravka" Content="Справка" Margin="419,0,0,528" FontFamily="Corbel" Click="Button_Reference">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Справка (F1)
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Image Source="img/психология2.png" Width="100" Height="100" Margin="195,133,195,317"/>
+
+            <TextBlock Margin="135,238,135,284" FontSize="20" FontFamily="Corbel">Психологические тесты</TextBlock>
+            <Button Content="Тест на темперамент А. Белова" Margin="143,318,153,197" Click="Button_Test_1" FontFamily="Corbel"/>
+            <Button Content="Рисуночный тест"  Margin="143,358,153,156" Click="Button_Test_2" FontFamily="Corbel"/>
+            <Button Content="Цветовой тест Люшера" Margin="143,399,153,115" Click="Button_Test_3" FontFamily="Corbel"/>
+        </Grid>
+    </Viewbox>
+</Window>

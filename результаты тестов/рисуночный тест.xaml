@@ -1,0 +1,69 @@
+﻿<Page x:Class="Курсовой_2._0.результаты_тестов.рисуночный_тест"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Курсовой_2._0.результаты_тестов"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="580"
+      Title="рисуночный_тест">
+
+    <Grid>
+        <Grid>
+            <ListBox Background="#FF3A9C7C" Focusable="False" x:Name="lb" HorizontalAlignment="Left" Height="328" Margin="10,10,0,0" VerticalAlignment="Top" Width="560" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+
+                <ListBoxItem IsEnabled="False">
+                    <StackPanel Background="White">
+                        <TextBlock HorizontalAlignment="Center" Background="#FF3A9C7C" Width="530" TextAlignment="Center">Рисунок символизирует то, как Вы видите себя</TextBlock>
+                        <TextBlock Background="#FF3A9C7C" Width="530" Foreground="White" TextAlignment="Center" x:Name="tb1" HorizontalAlignment="Center"></TextBlock>
+                        <Image x:Name="img1" Height="170" Width="530" Stretch="Uniform"/>
+                    </StackPanel>
+                </ListBoxItem>
+
+                <ListBoxItem IsEnabled="False">
+                    <StackPanel Background="White">
+                        <TextBlock HorizontalAlignment="Center" Background="#FF3A9C7C" Width="530" TextAlignment="Center">Рисунок символизирует то, что, по Вашему мнению, думают о Вас окружающие люди</TextBlock>
+                        <TextBlock Background="#FF3A9C7C" Width="530" Foreground="White" TextAlignment="Center" x:Name="tb2" HorizontalAlignment="Center"></TextBlock>
+                        <Image x:Name="img2" Height="170" Width="530"/>
+                    </StackPanel>
+                </ListBoxItem>
+
+                <ListBoxItem IsEnabled="False">
+                    <StackPanel Background="White">
+                        <TextBlock Background="#FF3A9C7C" Width="530" TextAlignment="Center" HorizontalAlignment="Center">Рисунок символизирует то, что Вы думаете о жизни в целом</TextBlock>
+                        <TextBlock Background="#FF3A9C7C" Width="530" Foreground="White" TextAlignment="Center" x:Name="tb3" HorizontalAlignment="Center"></TextBlock>
+                        <Image x:Name="img3" Height="170" Width="530"/>
+                    </StackPanel>
+                </ListBoxItem>
+
+                <ListBoxItem IsEnabled="False">
+                    <StackPanel Background="White">
+                        <TextBlock Background="#FF3A9C7C" Width="530" TextAlignment="Center" HorizontalAlignment="Center">Рисунок символизирует то, как Вы видите свою духовность</TextBlock>
+                        <TextBlock Background="#FF3A9C7C" Width="530" Foreground="White" TextAlignment="Center" x:Name="tb4" HorizontalAlignment="Center"></TextBlock>
+                        <Image x:Name="img4" Height="170" Width="530"/>
+                    </StackPanel>
+                </ListBoxItem>
+
+
+                <ListBoxItem IsEnabled="False">
+                    <StackPanel Background="White">
+                        <TextBlock Background="#FF3A9C7C" Width="530" TextAlignment="Center" HorizontalAlignment="Center">Рисунок символизирует то, как Вы относитесь к семье</TextBlock>
+                        <TextBlock Background="#FF3A9C7C" Width="530" Foreground="White" TextAlignment="Center" x:Name="tb5" HorizontalAlignment="Center"></TextBlock>
+                        <Image x:Name="img5" Height="170" Width="530"/>
+                    </StackPanel>
+                </ListBoxItem>
+
+                <ListBoxItem IsEnabled="False">
+                    <StackPanel Background="White">
+                        <TextBlock Background="#FF3A9C7C" Width="530" TextAlignment="Center" HorizontalAlignment="Center">Рисунок символизирует Ваше отношение к любви</TextBlock>
+                        <TextBlock Background="#FF3A9C7C" Width="530" Foreground="White" TextAlignment="Center"  x:Name="tb6" HorizontalAlignment="Center"></TextBlock>
+                        <Image x:Name="img6" Height="170" Width="530"/>
+                    </StackPanel>
+                </ListBoxItem>
+            </ListBox>
+            <TextBlock FontSize="7" Foreground="Red" TextWrapping="Wrap" Text="Внимание! Результаты и интерпретации, полученные без участия специалистов, не следует воспринимать слишком серьезно. Диагностическую ценность имеют только исследования, проведенные профессиональным психологом." Margin="10,343,121,10"></TextBlock>
+
+        </Grid>
+
+    </Grid>
+</Page>
